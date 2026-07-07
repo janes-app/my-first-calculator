@@ -23,6 +23,8 @@ body {
     color:#632942;
     border: none;
     border-radius: 12px;
+    touch-action:manipulation;
+    user-select: none;
     }
     button:hover {
         background-color: #9ED9D9;
