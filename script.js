@@ -12,3 +12,11 @@ function clearDisplay(){
     currentInput="";
     document.getElementById("display").innerHTML="0";
 }
+function backspace(){
+    currentInput=currentInput.slice(0,-1);
+ 
+    if(currentInput===""){
+        currentInput="0";
+    }
+    document.getElementById("display").textContent=currentInput;
+}
